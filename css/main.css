@@ -677,7 +677,7 @@ OUT TEAM
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 
 .Our-Team__Container {
@@ -764,6 +764,22 @@ OUT TEAM
 .OT__Slide__Texts p {
     font-family: 'Montserrat';
     font-weight: 200;
+}
+
+.OT__Slide__Texts a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    height: 30px;
+    background-color: #191731;
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    margin-top: 8px;
 }
 
 .Btn-Left-L,
@@ -1131,6 +1147,10 @@ OUT TEAM
   
 
 @media screen and (max-width: 768px) {
+
+    .Our-Team {
+        height: 100vh;
+    }
 
     .Btn-Left-Left,
     .Btn-Right-Right {
