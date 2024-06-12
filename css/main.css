@@ -780,6 +780,11 @@ OUT TEAM
     padding-right: 10px;
     border-radius: 25px;
     margin-top: 8px;
+    transition: all ease-in-out .1s;
+}
+
+.OT__Slide__Texts a:hover {
+    background-color: #ED7D31;
 }
 
 .Btn-Left-L,
