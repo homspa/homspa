@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const container = document.querySelector('.Services-Carousel__Container');
-    const slides = document.querySelectorAll('.SCC__Slide');
-    const prevBtn = document.querySelector('.Btn-Left-Left');
-    const nextBtn = document.querySelector('.Btn-Right-Right');
-    const dotsContainer = document.querySelector('.dots-container');
-    let index = 0;
-    let slidesToShowDesktop = 3;
-    let slidesToShowMobile = 1;
 
     function slidesDesktop() {
+        const container = document.querySelector('.Services-Carousel__Container');
+        const slides = document.querySelectorAll('.SCC__Slide');
+        const prevBtn = document.querySelector('.Btn-Left-Left');
+        const nextBtn = document.querySelector('.Btn-Right-Right');
+        const dotsContainer = document.querySelector('.dots-container');
+        let index = 0;
+        let slidesToShowDesktop = 3;
         function showSlidesDesktop() {
             slides.forEach((slide, i) => {
                 if (i >= index && i < index + slidesToShowDesktop) {
@@ -90,6 +89,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function slidesMobile() {
+        const container = document.querySelector('.Services-Carousel__Container');
+        const slides = document.querySelectorAll('.SCC__Slide');
+        const prevBtn = document.querySelector('.Btn-Left-Left');
+        const nextBtn = document.querySelector('.Btn-Right-Right');
+        const dotsContainer = document.querySelector('.dots-container');
+        let index = 0;
+        let slidesToShowMobile = 1;
         function showSlidesMobile() {
             slides.forEach((slide, i) => {
                 if (i === index) {
